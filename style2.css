@@ -1,0 +1,269 @@
+.action-holder{
+  /*border:2px solid red;*/
+    width:60%;
+    margin-top:35px;
+    position:absolute;
+    bottom:45px;
+    display: flex;
+    align-items: end;
+    left:55px;
+    justify-content: space-between;
+   
+
+}
+.action a{
+    text-decoration: none;
+}
+.action-container{
+  /* border:2px solid blue;*/
+    display:flex;
+    min-width:320px;
+    padding:12px 0;
+    width:40%;
+
+}
+.action-date{
+    display:flex;
+    align-items: center;
+    min-width:42px;
+    color:#fff;
+    /*border:2px solid red;*/
+}
+.action-play{
+ 
+    min-width: 24px;
+    cursor: pointer;
+    /*border:2px solid green;*/
+    font-size: 28px;
+    
+    
+}
+.action-container .action-content {
+    min-width: 215px;
+    margin-left: 15px;
+   /* border: 2px solid yellow;*/
+}
+.action-container .action-primary-text {
+
+    display: flex;
+    /*border:2px solid red;*/
+
+}
+.primary-text {
+    min-width:214px;
+    text-transform: capitalize;
+
+}
+
+.action-container .action-secondary-text {
+    margin-right: 25px;
+    font-size: 14px;
+    opacity: 0.75;
+    font-weight: 400;
+}
+.action-container .action-dot:not(:last-child):after {
+    content: "";
+    font-family: "fontawesome-hotstar";
+    font-size: 3px;
+    font-style: normal;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 0 6px;
+}
+
+.watch-share{
+   /* border:2px solid blue;*/
+    display:flex;
+    flex-direction: row;
+    
+    min-width:320px;
+    
+    width:40%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    white-space: initial;
+    display: inline-block;
+    position: relative;
+
+}
+.watchlist-holder{
+    display: inline-block;
+}
+.add-to-watchlist{
+    display: inline-block;
+   /* border: 2px solid red;*/
+    line-height: 15px;
+    border-radius: 2px;
+    white-space: initial;
+}
+.click-icon{
+    display:inline-block;
+    width:76px;
+    text-align:center;
+    height:56px;
+   /* border: 2px solid green;*/
+    line-height: 15px;
+    border-radius: 2px;
+    white-space: initial;
+}
+.click-icon-wrappe{
+    cursor: pointer;
+    display: inline-block;
+    line-height: 15px;
+    border-radius: 2px;
+    white-space: initial;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    white-space: initial;
+}
+.watchlist-icon{
+    display: inline-block;
+    width: 100%;
+    height: 28px;
+    transform: scale(1.4);
+    font-size: 26px;
+    opacity: 0.9;
+    /*border: 2px solid green;*/
+}
+.icon-title{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0.9;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: initial;
+    /*border: 2px solid pink;*/
+    padding: 11px 7px;
+}
+.social-holder{
+    display: inline-block;
+    position: relative;
+}
+
+.click-icon {
+    display:inline-block;
+    width:76px;
+    text-align:center;
+    height:56px;
+}
+.share-icon{
+    display: inline-block;
+    width: 100%;
+    height: 23px;
+    font-size: 26px;
+    transform: scale(1.4);
+    opacity: 0.9;
+}
+.watch-area{
+    width: 100%;
+    height: auto;
+    min-height: 65px;
+    position: relative;
+    /*border: 2px solid red;*/
+    margin-top: 79px;
+    
+}
+.player-base{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /*border: 2px solid yellow;*/
+}
+video{
+    width: 100%;
+height: 538px;
+margin-top: 4px;
+/* margin-left: 613px; */
+/*border: 2px solid blue;*/
+}
+.detail-area{
+    max-width: calc(100vw - 105px);
+    margin: 0 auto;
+    padding-top: 25px;
+    border-bottom: 1px solid var(--BG_COLOR_L2);
+   /* border: 2px solid red;*/
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+   /* border: 2px solid green;*/
+}
+.meta-wrap {
+    position: relative;
+}
+.container h1 {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: white;
+    margin: 4px 0 6px;
+    padding: 0;
+   /* border: 2px solid red;*/
+}
+.show-title {
+    margin-bottom: 6px;
+   /* border: 2px solid yellow;*/
+}
+.tag-holder {
+    display: inline-block;
+    padding-bottom: 5px;
+}
+a{
+    outline: 0;
+    color: blue;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.tag {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    cursor:pointer;
+    color: #54aeff;
+    text-transform: capitalize;
+}
+.episode-divider:before {
+    content: "";
+    font-family: "fontawesome-hotstar";
+    font-size: 3px;
+    font-style: normal;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.episode-divider {
+    color: #616161;
+}
+.meta-data-holder{
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.meta-data {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    opacity: 0.9;
+}
+.meta-data:before {
+    content: "";
+    font-family: "fontawesome-hotstar";
+    font-size: 3px;
+    font-style: normal;
+    text-decoration: none;
+    vertical-align: middle;
+    font-weight: normal;
+    padding: 0 6px;
+}
+.description {
+    padding: 3px 0 25px;
+    font-size: 16px;
+    color: whitesmoke;
+    opacity: 0.9;
+}

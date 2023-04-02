@@ -77,7 +77,7 @@ body{
     text-transform: uppercase;
     font-weight:700;
     font-size: 12px;
-    margin:0 10px;
+    /*margin:0 10px;*/
 }
 .login-link{
   color:#fff;
@@ -85,6 +85,7 @@ body{
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 700;
+  padding: 7px;
   text-decoration: none;
 }
 
@@ -192,9 +193,6 @@ body{
     text-transform: capitalize;
     margin-top: 12px;
     opacity: 0.8;
-
-
-
 }
 
 /* Next & previous buttons */
@@ -429,7 +427,7 @@ body{
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 86px;
+    top: 49px;
     left: 0;
     background-color: #0c111b;;
     overflow-x: hidden;
@@ -439,13 +437,14 @@ body{
   }
   
   .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 29px 26px 7px 12px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
-  }
+}
+  
   
   .sidenav a:hover {
     color: #f1f1f1;
@@ -454,16 +453,19 @@ body{
   .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    /*right: 25px;*/
     font-size: 36px;
-    margin-left: 50px;
+    /*margin-left: 50px;*/
+    padding-top: 0px;
+    color: white;
   }
   .span1{
       font-size: 30px;
       cursor: pointer;
       color: white;
       position: absolute;
-       left: 1%;
+       left: 12px;
+       
        
   }
 
@@ -488,6 +490,24 @@ body{
     flex-direction: column;
     
    }
+   .movie-des{
+    display: none;
+  }
+  .watch-share{
+    margin-top: 15px;
+    margin-top: 15px;
+    position: relative;
+    left: 44px;
+  }
+  .action{
+    position: relative;
+    left: -67px;
+  }
+  .xyz {
+    
+    flex-direction: column;
+}
+
 }
 
 @media only screen and (max-width:1003px) {
@@ -502,11 +522,87 @@ body{
     .search-box:focus{
         width:170px;
     }
+   
+}
+@media only screen and (min-width:710px) and (max-width:1030) {
+    .watch-share{
+        position:relative;
+        left: 80px;
+    }
+}
+.footer{
+    background: black;
+    color:white;
+    width: 94%;
+    margin-left: 26px;
+}
+.xyz{
+   /* border: 2px solid red;*/
+    display: flex;
+}
+.company{
+    /*border: 2px solid blue;*/
+    display: flex;
+    flex-direction: column;
+    margin-left: 31px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 25%;
+    opacity: 0.6;
+
+}
+h4{
+    font-size: 20px;
+    text-decoration: none;
+    text-align: inherit;
+    text-transform: capitalize;
+   
+}
+.unorder{
+    list-style: none;
+   /* border: 2px solid yellow;*/
+    margin-top: 22px;
+    text-transform: capitalize;
+    opacity: 0.8;
+    font-size: 12px;
+}
+.listorder{
+    margin-top: 13px;
+    cursor: pointer;
+   /* border:2px solid red;*/
+}
+.abc{
+    /*border:2px solid red;*/
+    width:93%;
+    margin-left: 20px;
+}
+.copyright1{
+    /*border:2px solid blue;*/
+    width: 50%;
+    margin-bottom: 31px;
+
+}
+.copyright2{
+    /*border: 2px solid green;*/
+    opacity: 0.5;
+    margin-top: 12px;
+    text-transform: capitalize;
+}
+.unoreder1{
+    /*border:2px solid yellow;*/
+    margin-top: 16px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
 }
 
-
-
-
-
-
-
+.listorder1{
+    /*border:2px solid white;*/
+        /* border: 2px solid white; */
+        list-style: none;
+        text-transform: capitalize;
+        margin: 0px 8px;
+        padding: 29px -2px;
+        opacity: 0.4;
+        cursor: pointer;
+}

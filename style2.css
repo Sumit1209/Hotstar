@@ -1,15 +1,19 @@
 .action-holder{
-  /*border:2px solid red;*/
-    width:60%;
-    margin-top:35px;
-    position:absolute;
-    bottom:45px;
+    /*border: 2px solid red;*/
+    width: 60%;
+    margin-top: 35px;
+    position: absolute;
+    bottom: 45px;
     display: flex;
     align-items: end;
-    left:55px;
+    left: 55px;
     justify-content: space-between;
    
 
+}
+.action{
+    /*border: 2px solid #f2ff00;*/
+    width: 60%;
 }
 .action a{
     text-decoration: none;
@@ -72,21 +76,19 @@
 }
 
 .watch-share{
-   /* border:2px solid blue;*/
-    display:flex;
-    flex-direction: row;
-    
-    min-width:320px;
-    
-    width:40%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 10px;
-    font-weight: 500;
-    white-space: initial;
-    display: inline-block;
-    position: relative;
+   /*border:2px solid blue;*/
+   /*display: flex;
+    flex-direction: row; */
+   min-width: 260px;
+   width: 40%;
+   text-align: center;
+   text-transform: uppercase;
+   color: #fff;
+   font-size: 10px;
+   font-weight: 500;
+   white-space: initial;
+   /* display: inline-block; */
+   position: relative;
 
 }
 .watchlist-holder{

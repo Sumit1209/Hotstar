@@ -572,8 +572,8 @@ h4{
    /* border:2px solid red;*/
 }
 .abc{
-    /*border:2px solid red;*/
-    width:93%;
+    border: 2px solid black;
+    width: 93%;
     margin-left: 20px;
 }
 .copyright1{
